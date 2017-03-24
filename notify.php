@@ -13,7 +13,7 @@ curl_setopt( $chOne, CURLOPT_POSTFIELDS, "message=สวัสดี");
 // follow redirects 
 curl_setopt( $chOne, CURLOPT_FOLLOWLOCATION, 1); 
 //ADD header array 
-$headers = array( 'Content-type: application/x-www-form-urlencoded', 'Authorization: Bearer qHxCAsJBT0dmxBHJHWTk4YrsvrZYDIrVMriem1nW0MI', ); 
+$headers = array( 'Content-type: application/x-www-form-urlencoded', 'Authorization: Bearer qHxCAsJBT0dmxBHJHWTk4YrsvrZYDIrVMriem1nW0MI'); 
 curl_setopt($chOne, CURLOPT_HTTPHEADER, $headers); 
 //RETURN 
 curl_setopt( $chOne, CURLOPT_RETURNTRANSFER, 1); 
